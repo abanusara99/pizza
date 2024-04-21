@@ -116,6 +116,15 @@ def get_topping_record_wav():
 def play_local_wav():
     return Response(play_local_wav_file(play_audio), mimetype="audio/x-wav")
 
+@app.route("/about")
+def about():
+    return render_template("about.html")
+    
+
+@app.route("/cardapio")
+def card_menu():
+    return render_template("cardapio.html")
+
 
 if __name__ == "__main__":
     

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>La AI Pizza Plaza</title>
+        <title>AB AI Pizza Plaza</title>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"/>
@@ -24,8 +24,8 @@
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="/templates/about.html"  class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="/templates/cardapio.html" class="nav-link">Cardapio Menu</a></li>
+                    <li class="nav-item"><a href="{{ url_for('about') }}"  class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="{{ url_for('card_menu') }} " class="nav-link">Cardapio Menu</a></li>
                 </ul>
             </div>
         </div>
