@@ -1,0 +1,4 @@
+
+cd Embeddable-AI-Voice-Ordering-Template
+
+python3.8 -m pip install -r requirements.txt
