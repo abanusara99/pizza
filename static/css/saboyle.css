@@ -1,0 +1,24 @@
+#pizzas {
+    display: flex;
+    flex-direction: column; /* Aligns children vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Adjust this value based on your layout needs */
+    padding: 20px; /* Optional padding for better spacing */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px; /* Adds space below the heading */
+}
+
+
+.transparent-box {
+    width: 500px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px; /* Optional: Rounded corners */
+    padding: 50px; /* Padding inside the box */
+    color: black; /* Ensures text inside is black */
+}
