@@ -6,4 +6,4 @@ scipy
 pandas
 pyjnius
 nltk
-guicon
+gunicorn
